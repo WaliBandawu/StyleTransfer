@@ -2,7 +2,8 @@
 
 A web-based application that performs neural style transfer using PyTorch and Flask. This application allows users to upload a content image and a style image to create a new artistic image that combines the content of one with the artistic style of the other.
 
-![Style Transfer Demo](demo.gif)
+![Style Transfer Demo]#https://www.loom.com/share/c913bf4ff69f423a990266c908bb55fe?sid=583c312a-6b13-41ed-9f21-09b10037631b
+
 
 ## Features
 
