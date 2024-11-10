@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Transfer App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Neural Style Transfer</h1>
+        <div class="upload-container">
+            <div class="upload-box">
+                <h3>Content Image</h3>
+                <div class="preview" id="content-preview"></div>
+                <input type="file" id="content-input" accept="image/*">
+                <label for="content-input" class="upload-btn">Choose Content Image</label>
+            </div>
+            
+            <div class="upload-box">
+                <h3>Style Image</h3>
+                <div class="preview" id="style-preview"></div>
+                <input type="file" id="style-input" accept="image/*">
+                <label for="style-input" class="upload-btn">Choose Style Image</label>
+            </div>
+        </div>
+        
+        <button id="transfer-btn" class="transfer-btn">Transfer Style</button>
+        
+        <div class="result-container">
+            <h3>Result</h3>
+            <div class="preview" id="result-preview"></div>
+        </div>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Processing... This may take several minutes on CPU. Please be patient.</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
