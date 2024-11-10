@@ -21,7 +21,3 @@ A web-based application that performs neural style transfer using PyTorch and Fl
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Deep Learning**: PyTorch, VGG19
 - **Image Processing**: Pillow
-
-## Installation
-
-1. Clone the repository: 
